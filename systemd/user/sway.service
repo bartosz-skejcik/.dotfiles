@@ -1,0 +1,10 @@
+[Unit]
+Description=Sway Window Manager
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/sway
+Restart=always
+
+[Install]
+WantedBy=default.target
